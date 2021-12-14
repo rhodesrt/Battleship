@@ -9,6 +9,6 @@ let computer = newPlayer("computer");
 let content = document.querySelector("#content");
 renderPage(content);
 initializeBoard(content);
-resetButton(player, computer);
+// resetButton(player, computer);
 
 newGame(player, computer);

@@ -39,7 +39,6 @@ function resetBoard() {
   gridArray.map(box => {
     box.id = "empty";
     box.style.backgroundColor = "white";
-    box.textContent = "";
     box.replaceWith(box.cloneNode(true));
     return box.cloneNode(true);
   });
