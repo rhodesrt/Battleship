@@ -4,9 +4,9 @@ export function renderPage(contentDiv) {
   let uiContainer = document.createElement("div");
   uiContainer.classList.add("ui-container");
 
-  let resetGame = document.createElement("button");
-  resetGame.textContent = "Reset";
-  resetGame.id = "reset-game";
+  // let resetGame = document.createElement("button");
+  // resetGame.textContent = "Reset";
+  // resetGame.id = "reset-game";
   let placeShip = document.createElement("button");
   placeShip.textContent = "Place Ships";
   placeShip.id = "place-ship";
@@ -18,7 +18,7 @@ export function renderPage(contentDiv) {
   let alertBox = document.createElement("div");
   alertBox.classList.add("alert-box");
 
-  uiContainer.appendChild(resetGame);
+  // uiContainer.appendChild(resetGame);
   uiContainer.appendChild(placeShip);
   uiContainer.appendChild(rotateBtn);
   uiContainer.appendChild(alertBox);
