@@ -1,0 +1,93 @@
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.ui-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.alert-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 12px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.game-board {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+.computer-board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.player-board {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 200px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.grid-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 22px;
+  cursor: crosshair;
+  border: 1px solid black;
+}
+
+.hit {
+  background-color: red;
+}
+
+.miss {
+  background-color: gray;
+}
