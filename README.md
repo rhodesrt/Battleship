@@ -1,2 +1,2 @@
 # Battleship
-Classic Battleship Game
+https://rhodesrt.github.io/Battleship/
